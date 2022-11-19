@@ -10,7 +10,7 @@ describe("Todo List Test Suite", () => {
       {
         title: "Prepare for nationals",
         completed: false,
-        dueDate: new Date(sunday.getTime() - monDay).toLocaleDateString(
+        dueDate: new Date(sunday.getTime() - monday).toLocaleDateString(
           "en-CA"
         ),
       },
@@ -22,7 +22,7 @@ describe("Todo List Test Suite", () => {
       {
         title: "Submit records",
         completed: false,
-        dueDate: new Date(sunday.getTime() + monDay).toLocaleDateString(
+        dueDate: new Date(sunday.getTime() + monday).toLocaleDateString(
           "en-CA"
         ),
       },
